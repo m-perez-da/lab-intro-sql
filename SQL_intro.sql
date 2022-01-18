@@ -13,7 +13,7 @@ SELECT * FROM customer;
 SELECT title FROM film;
 
 -- 4. Get unique list of film languages under the alias language
-SELECT name FROM language;
+SELECT name AS language FROM language;
 
 -- 5.1 How many stores does the company have
 SELECT COUNT(store_id) 
